@@ -14,10 +14,9 @@
     float: right;
 }
 .content {
-    width: 1000px;
-    height: 31px;
-    background: rgb(197, 47, 10);
-    float: leftt;
+    width: 800px;
+    background: rgb(180, 236, 232);
+    float: left;
 }
 .clear {
     clear: left;
@@ -54,14 +53,22 @@
     text-decoration: none;
 }
 
-.blog-content {
+.blog-kontent {
     float: left;
-    max-width: 100px;
+    max-width: 1000px;
     margin-left: 10px;
     margin-bottom: 20px;
 }
-.blog-content img {
-    width: 60px;
-    height: 20px;
+.blog-kontent img {
+    width: 400px;
+    height: 200px;
     object-fit: cover;
+}
+.text-box {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.image-box {
+    width: 200px;
+    height: 200px;
 }
